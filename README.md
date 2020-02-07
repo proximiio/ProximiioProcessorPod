@@ -1,9 +1,9 @@
 # Proximi.io Processor
 
-[![CI Status](https://img.shields.io/travis/Matteo Crippa/ProximiioProcessor.svg?style=flat)](https://travis-ci.org/Matteo Crippa/ProximiioProcessor)
-[![Version](https://img.shields.io/cocoapods/v/ProximiioProcessor.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessor)
-[![License](https://img.shields.io/cocoapods/l/ProximiioProcessor.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessor)
-[![Platform](https://img.shields.io/cocoapods/p/ProximiioProcessor.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessor)
+[![CI Status](https://img.shields.io/travis/proximiio/ProximiioProcessorPod.svg?style=flat)](https://travis-ci.org/proximiio/ProximiioProcessorPod)
+[![Version](https://img.shields.io/cocoapods/v/ProximiioProcessorPod.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessorPod)
+[![License](https://img.shields.io/cocoapods/l/ProximiioProcessorPod.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessorPod)
+[![Platform](https://img.shields.io/cocoapods/p/ProximiioProcessorPod.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessorPod)
 
 ## Example
 
