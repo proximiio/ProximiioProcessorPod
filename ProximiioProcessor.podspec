@@ -29,6 +29,7 @@ DESC
   s.ios.deployment_target = '12.0'
 
   s.dependency 'Proximiio'
+  s.dependency 'SwiftyJSON'
 
   s.swift_version = '5.1'
 
