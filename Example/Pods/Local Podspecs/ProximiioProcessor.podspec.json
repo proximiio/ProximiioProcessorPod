@@ -1,0 +1,22 @@
+{
+  "name": "ProximiioProcessor",
+  "version": "0.1.0",
+  "summary": "A short description of ProximiioProcessor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Matteo Crippa/ProximiioProcessor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Matteo Crippa": "matteocrippa@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/Matteo Crippa/ProximiioProcessor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ProximiioProcessor/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module ProximiioProcessor {
+  umbrella header "ProximiioProcessor-umbrella.h"
+
+  export *
+  module * { export * }
+}

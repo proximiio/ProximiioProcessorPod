@@ -1,0 +1,16 @@
+PODS:
+  - ProximiioProcessor (0.1.0)
+
+DEPENDENCIES:
+  - ProximiioProcessor (from `../`)
+
+EXTERNAL SOURCES:
+  ProximiioProcessor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ProximiioProcessor: 149c8a3c55e2ac19e4a516ae782bb44f48b5e5b1
+
+PODFILE CHECKSUM: 1b8af69856d6897a84a9d9f84b0038ff55623789
+
+COCOAPODS: 1.8.4
