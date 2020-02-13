@@ -161,10 +161,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ProximiioProcessor/ProximiioProcessor.framework"
+  install_framework "${PODS_ROOT}/Proximiio/Pod/Proximiio.framework"
+  install_framework "${PODS_ROOT}/../../ProximiioProcessor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ProximiioProcessor/ProximiioProcessor.framework"
+  install_framework "${PODS_ROOT}/Proximiio/Pod/Proximiio.framework"
+  install_framework "${PODS_ROOT}/../../ProximiioProcessor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

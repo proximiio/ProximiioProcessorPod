@@ -1,15 +1,26 @@
 PODS:
-  - ProximiioProcessor (0.1.0)
+  - Proximiio (1.1.51)
+  - ProximiioProcessor (0.1.1):
+    - Proximiio
+    - SwiftyJSON
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - ProximiioProcessor (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Proximiio
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   ProximiioProcessor:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ProximiioProcessor: 149c8a3c55e2ac19e4a516ae782bb44f48b5e5b1
+  Proximiio: efc8dbe19b25a2ed6fe2c3408beecb5a8d351ae4
+  ProximiioProcessor: 46733c9726a3f88b33fca7db94a4a6a1dda55763
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
 PODFILE CHECKSUM: 1b8af69856d6897a84a9d9f84b0038ff55623789
 

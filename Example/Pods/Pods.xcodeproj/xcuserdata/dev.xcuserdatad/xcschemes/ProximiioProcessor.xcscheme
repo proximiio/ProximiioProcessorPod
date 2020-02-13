@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "283A55E3E64B951174B82F0E091EA285"
-               BuildableName = "ProximiioProcessor.framework"
+               BuildableName = "ProximiioProcessor"
                BlueprintName = "ProximiioProcessor"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

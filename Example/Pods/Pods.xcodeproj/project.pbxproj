@@ -6,81 +6,161 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		283A55E3E64B951174B82F0E091EA285 /* ProximiioProcessor */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6EE7C5C7142A38A1179067EE1761F55D /* Build configuration list for PBXAggregateTarget "ProximiioProcessor" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6C3FBCC206B31C7AF8BE7F3210A5F2B8 /* PBXTargetDependency */,
+				085CEDABDC93BE579F47175326713134 /* PBXTargetDependency */,
+			);
+			name = ProximiioProcessor;
+		};
+		3C00E69971F9D9A57AB7356D9277C0EF /* Proximiio */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B5F3117BFBA7EA9BABE17D651DC1F0F1 /* Build configuration list for PBXAggregateTarget "Proximiio" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Proximiio;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		285C2D29FFD62134BBE487CC651942A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3AE767339D18CA5F918EF971E0536EDB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB012C8D6FE9979728D6CDA721BD7862 /* ReplaceMe.swift */; };
-		73E7E16EE1085DB025D8EAB032AD67DE /* ProximiioProcessor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B61A1E798983386DFBCE769E41AF88C /* ProximiioProcessor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BF62E3EF99518CA60936138E1EA8760 /* Pods-ProximiioProcessor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A33FA881EB93EDC0FC6136B14B314E /* Pods-ProximiioProcessor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B40C61A565A250C671B149536F89C3A /* Pods-ProximiioProcessor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5576C3F938AA74AE9FA34A1F6A04BE /* Pods-ProximiioProcessor_Tests-dummy.m */; };
-		AA36486DE58E878074E1A2321CF80E22 /* ProximiioProcessor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C859E212F861A3AAE5EF3647EEBC3B10 /* ProximiioProcessor-dummy.m */; };
-		C46A184718A0F0299262BC2838B54640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		13D92770FA60F9099F719D858B20B328 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 772D4152836496A153598B0024331A86 /* SwiftyJSON-dummy.m */; };
+		49623B3ADBBD5E328DE5E17E75187513 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB586545B70D2A29BDC4B2702FA880D /* SwiftyJSON.swift */; };
+		4A1A8F11848FDDC9E0A8874F1DA99706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BE83249CB61D68B417851D35F6818B1E /* Pods-ProximiioProcessor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5576C3F938AA74AE9FA34A1F6A04BE /* Pods-ProximiioProcessor_Tests-dummy.m */; };
+		F2292FA9F864F52BB4BD38C02A01E192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F449E2974FE72E616C339F699F75D173 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9D7CD18FB6DBE838EB9109EFD2AD26 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F92EDE67FBA1F588636B68A545DC52 /* Pods-ProximiioProcessor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A33FA881EB93EDC0FC6136B14B314E /* Pods-ProximiioProcessor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CFC0643DBFE1E79D430E20D0532884FD /* PBXContainerItemProxy */ = {
+		2331B3D810C21A27CC35333FC59165F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 283A55E3E64B951174B82F0E091EA285;
 			remoteInfo = ProximiioProcessor;
 		};
+		3B0F734565C2CEB7A481112FD72B190A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		70934D89CF84AD91F73B19AADB8BE096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C00E69971F9D9A57AB7356D9277C0EF;
+			remoteInfo = Proximiio;
+		};
+		84E9E65CD055286E5250A49AD2D597F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C00E69971F9D9A57AB7356D9277C0EF;
+			remoteInfo = Proximiio;
+		};
+		BF4983AFB36023E7073E999288439574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		07EDEBF6DCACEFD108244A0F133554D2 /* Pods_ProximiioProcessor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProximiioProcessor_Tests.framework; path = "Pods-ProximiioProcessor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A75763885584F03459045EB7DB1CA04 /* ProximiioProcessor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProximiioProcessor.xcconfig; sourceTree = "<group>"; };
 		1670C0C1E30FCD531D08D88EF3BBFD5F /* Pods-ProximiioProcessor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProximiioProcessor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		185B75A7C9C38FA9EEAA4C3087C2CF1A /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		1C74CDE16E0D1CB9A8623563F8031973 /* Pods-ProximiioProcessor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProximiioProcessor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D0D6E097C04E43D9F20CBBF24FC4F83 /* ProximiioProcessor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProximiioProcessor.framework; path = ProximiioProcessor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3306841D38EF24BFF67FD765C4FB2DF1 /* ProximiioProcessor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ProximiioProcessor.framework; sourceTree = "<group>"; };
+		3B9D7CD18FB6DBE838EB9109EFD2AD26 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		485C3CF7AF548C47EEB835FA18AAFB97 /* Pods-ProximiioProcessor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProximiioProcessor_Tests-Info.plist"; sourceTree = "<group>"; };
 		4A5EDF4C143EBAF1708B301BE6DD6AFA /* Pods-ProximiioProcessor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProximiioProcessor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4B61A1E798983386DFBCE769E41AF88C /* ProximiioProcessor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProximiioProcessor-umbrella.h"; sourceTree = "<group>"; };
-		778BD7D1933C62725EAA158D348ABFFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4A8D92396F34798327CE39A8B45A38FE /* Proximiio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Proximiio.framework; path = Pod/Proximiio.framework; sourceTree = "<group>"; };
+		530AB51B9177C33162105D523E8D36A2 /* Proximiio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Proximiio.xcconfig; sourceTree = "<group>"; };
+		5C4D7352697720A443995E480D9C57EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		771308F45AD245679710A14064CCE03C /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		772D4152836496A153598B0024331A86 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		77C6E6B9AF337E9AAF812C7DD35172D8 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		79DF51C050FA77A742E824A82D51A8FF /* Pods-ProximiioProcessor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProximiioProcessor_Tests.modulemap"; sourceTree = "<group>"; };
-		7EC2E0C1438E9BE4159206CB2C130895 /* ProximiioProcessor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProximiioProcessor-Info.plist"; sourceTree = "<group>"; };
-		80F2AB223ED51D27D4D2F3BA3335291A /* ProximiioProcessor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProximiioProcessor-prefix.pch"; sourceTree = "<group>"; };
+		8EA7FB71EBCCC96F58005BC2B574AD79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		96A33FA881EB93EDC0FC6136B14B314E /* Pods-ProximiioProcessor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProximiioProcessor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1810B95C2B50EE4CD15AB2A6632FD81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BB012C8D6FE9979728D6CDA721BD7862 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ProximiioProcessor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		ACB5C9CAED6B7367186CA33AC49EA5A9 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		B5FAAE902061075185B4A416D8A4FBFD /* ProximiioProcessor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ProximiioProcessor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB5576C3F938AA74AE9FA34A1F6A04BE /* Pods-ProximiioProcessor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProximiioProcessor_Tests-dummy.m"; sourceTree = "<group>"; };
 		BEDF5E1C60C59FE168C0C03B44433B5A /* Pods-ProximiioProcessor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProximiioProcessor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C859E212F861A3AAE5EF3647EEBC3B10 /* ProximiioProcessor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProximiioProcessor-dummy.m"; sourceTree = "<group>"; };
-		CC011BA09708FDF0E21639DD1D2AEA70 /* ProximiioProcessor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProximiioProcessor.modulemap; sourceTree = "<group>"; };
-		E533890656B4F9A7DD989EFE5AA34894 /* ProximiioProcessor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProximiioProcessor.xcconfig; sourceTree = "<group>"; };
+		DFB586545B70D2A29BDC4B2702FA880D /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3FB8F9653F419ACC94518B76E05A86 /* Pods-ProximiioProcessor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProximiioProcessor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F3CF36146CD7292AD42FDD84EF4B003F /* ProximiioProcessor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ProximiioProcessor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B7B49211A4FF7197F3327EE0C2D03E5E /* Frameworks */ = {
+		7C48F5D57A8B8F7A4BDFF18E355BD38D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285C2D29FFD62134BBE487CC651942A2 /* Foundation.framework in Frameworks */,
+				F2292FA9F864F52BB4BD38C02A01E192 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7A96D78CE75A66554E6E6C1B55FA57 /* Frameworks */ = {
+		AA65CC2DE9EA16F43F39CEE0DF849BD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46A184718A0F0299262BC2838B54640 /* Foundation.framework in Frameworks */,
+				4A1A8F11848FDDC9E0A8874F1DA99706 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D7D55F1E3BFDE1F34D1F6F8AF160718 /* ProximiioProcessor */ = {
+		08C5DF0D04A2805821305B75C042FF6E /* Proximiio */ = {
 			isa = PBXGroup;
 			children = (
-				BB012C8D6FE9979728D6CDA721BD7862 /* ReplaceMe.swift */,
-				8CC4041B7766DE5F95BA1DFA7E85A2AA /* Pod */,
-				4B5AFF6129A6F2FF21C36E5901A4BCB0 /* Support Files */,
+				28F2D089CA4DDF4EDFDEB3897FFADA40 /* Frameworks */,
+				4AF17CD05A8BF84D29CA429AA306F752 /* Support Files */,
 			);
-			name = ProximiioProcessor;
-			path = ../..;
+			name = Proximiio;
+			path = Proximiio;
+			sourceTree = "<group>";
+		};
+		0ED34D6B2B8EA85BCB7D9C4565BBFCBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A75763885584F03459045EB7DB1CA04 /* ProximiioProcessor.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ProximiioProcessor";
+			sourceTree = "<group>";
+		};
+		15F309D2A65C9E2BDB0D7D5B73E6D0DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08C5DF0D04A2805821305B75C042FF6E /* Proximiio */,
+				FF060C24BE1A220BE95A61A96BE64BCA /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28F2D089CA4DDF4EDFDEB3897FFADA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D92396F34798327CE39A8B45A38FE /* Proximiio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2EA1FCC46671BA0C4F368CCDF2D29267 /* Pods-ProximiioProcessor_Tests */ = {
@@ -103,42 +183,59 @@
 		335986FCCE1BF029F8B8459D15BAA38B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D7D55F1E3BFDE1F34D1F6F8AF160718 /* ProximiioProcessor */,
+				E5226B8780C49994D0F26B64E7CE5AC9 /* ProximiioProcessor */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		369CEB0EED260738C41D3068275EB9F8 /* Products */ = {
+		33FCAC9ABE7E8D14E078877334C48163 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				771308F45AD245679710A14064CCE03C /* SwiftyJSON.modulemap */,
+				185B75A7C9C38FA9EEAA4C3087C2CF1A /* SwiftyJSON.xcconfig */,
+				772D4152836496A153598B0024331A86 /* SwiftyJSON-dummy.m */,
+				ACB5C9CAED6B7367186CA33AC49EA5A9 /* SwiftyJSON-Info.plist */,
+				77C6E6B9AF337E9AAF812C7DD35172D8 /* SwiftyJSON-prefix.pch */,
+				3B9D7CD18FB6DBE838EB9109EFD2AD26 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		35AA751AFAA19C4863FA2C9BAA2F1EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3306841D38EF24BFF67FD765C4FB2DF1 /* ProximiioProcessor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AF17CD05A8BF84D29CA429AA306F752 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				530AB51B9177C33162105D523E8D36A2 /* Proximiio.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Proximiio";
+			sourceTree = "<group>";
+		};
+		930098A16DE902A07C6A5FCFFE401DF0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5C4D7352697720A443995E480D9C57EF /* LICENSE */,
+				B5FAAE902061075185B4A416D8A4FBFD /* ProximiioProcessor.podspec */,
+				8EA7FB71EBCCC96F58005BC2B574AD79 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9D58C10D2D13321676BF9909DB6D45F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				07EDEBF6DCACEFD108244A0F133554D2 /* Pods_ProximiioProcessor_Tests.framework */,
-				3D0D6E097C04E43D9F20CBBF24FC4F83 /* ProximiioProcessor.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4B5AFF6129A6F2FF21C36E5901A4BCB0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC011BA09708FDF0E21639DD1D2AEA70 /* ProximiioProcessor.modulemap */,
-				E533890656B4F9A7DD989EFE5AA34894 /* ProximiioProcessor.xcconfig */,
-				C859E212F861A3AAE5EF3647EEBC3B10 /* ProximiioProcessor-dummy.m */,
-				7EC2E0C1438E9BE4159206CB2C130895 /* ProximiioProcessor-Info.plist */,
-				80F2AB223ED51D27D4D2F3BA3335291A /* ProximiioProcessor-prefix.pch */,
-				4B61A1E798983386DFBCE769E41AF88C /* ProximiioProcessor-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ProximiioProcessor";
-			sourceTree = "<group>";
-		};
-		8CC4041B7766DE5F95BA1DFA7E85A2AA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B1810B95C2B50EE4CD15AB2A6632FD81 /* LICENSE */,
-				F3CF36146CD7292AD42FDD84EF4B003F /* ProximiioProcessor.podspec */,
-				778BD7D1933C62725EAA158D348ABFFB /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -155,7 +252,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				335986FCCE1BF029F8B8459D15BAA38B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				369CEB0EED260738C41D3068275EB9F8 /* Products */,
+				15F309D2A65C9E2BDB0D7D5B73E6D0DB /* Pods */,
+				9D58C10D2D13321676BF9909DB6D45F5 /* Products */,
 				F4F8BD3E0DAFB950ED6B40405D0218DF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -168,6 +266,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E5226B8780C49994D0F26B64E7CE5AC9 /* ProximiioProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				35AA751AFAA19C4863FA2C9BAA2F1EBB /* Frameworks */,
+				930098A16DE902A07C6A5FCFFE401DF0 /* Pod */,
+				0ED34D6B2B8EA85BCB7D9C4565BBFCBC /* Support Files */,
+			);
+			name = ProximiioProcessor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		F4F8BD3E0DAFB950ED6B40405D0218DF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,63 +285,75 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FF060C24BE1A220BE95A61A96BE64BCA /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				DFB586545B70D2A29BDC4B2702FA880D /* SwiftyJSON.swift */,
+				33FCAC9ABE7E8D14E078877334C48163 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3BF40545FA89F1DD7B9AC0E7D2F4F957 /* Headers */ = {
+		796E0EDA993528BBF74A5407AA3D3079 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E7E16EE1085DB025D8EAB032AD67DE /* ProximiioProcessor-umbrella.h in Headers */,
+				F449E2974FE72E616C339F699F75D173 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97F94C151AA1BB1E85E9E314A6855569 /* Headers */ = {
+		A2B03D0AC1806A4E234EC2B72EE7D654 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF62E3EF99518CA60936138E1EA8760 /* Pods-ProximiioProcessor_Tests-umbrella.h in Headers */,
+				F7F92EDE67FBA1F588636B68A545DC52 /* Pods-ProximiioProcessor_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		283A55E3E64B951174B82F0E091EA285 /* ProximiioProcessor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 33E2EDE29D74C72A6ABB23FE257FD4EA /* Build configuration list for PBXNativeTarget "ProximiioProcessor" */;
-			buildPhases = (
-				3BF40545FA89F1DD7B9AC0E7D2F4F957 /* Headers */,
-				4DE95FA1BB5B594F5D37DD2DE98AE483 /* Sources */,
-				FB7A96D78CE75A66554E6E6C1B55FA57 /* Frameworks */,
-				07EA7AA272035ABA3FC397EE2E27B73B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ProximiioProcessor;
-			productName = ProximiioProcessor;
-			productReference = 3D0D6E097C04E43D9F20CBBF24FC4F83 /* ProximiioProcessor.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A0398D4C6A2DD31A7729FABC61FD03EB /* Pods-ProximiioProcessor_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C03F70E15B23295C684405E6A266C942 /* Build configuration list for PBXNativeTarget "Pods-ProximiioProcessor_Tests" */;
+			buildConfigurationList = 1DC8483D07A3A7712AA0B8DE213D75E5 /* Build configuration list for PBXNativeTarget "Pods-ProximiioProcessor_Tests" */;
 			buildPhases = (
-				97F94C151AA1BB1E85E9E314A6855569 /* Headers */,
-				91D812960021895CD39A680FAA73B56E /* Sources */,
-				B7B49211A4FF7197F3327EE0C2D03E5E /* Frameworks */,
-				3B96BA745400E9983F74541DBB91BF10 /* Resources */,
+				A2B03D0AC1806A4E234EC2B72EE7D654 /* Headers */,
+				A08E0338FC7B54CAE24903908AF5C881 /* Sources */,
+				AA65CC2DE9EA16F43F39CEE0DF849BD6 /* Frameworks */,
+				1EF0DF360B4F91F700EC532967C7C6B3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6567EAD396B2E660CDCEC98BDC9B0891 /* PBXTargetDependency */,
+				7EFB03319E8AF5FFD5C740E48F5D2BEC /* PBXTargetDependency */,
+				965EDEA949122B4F1A62E62EE030C929 /* PBXTargetDependency */,
+				34F39A47959844E2D776439B8C91FAD8 /* PBXTargetDependency */,
 			);
 			name = "Pods-ProximiioProcessor_Tests";
 			productName = "Pods-ProximiioProcessor_Tests";
 			productReference = 07EDEBF6DCACEFD108244A0F133554D2 /* Pods_ProximiioProcessor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B3B2544AB48CAE5A5667D02541CC40 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				796E0EDA993528BBF74A5407AA3D3079 /* Headers */,
+				6B933E10267336E74D0E09FE927B7EA4 /* Sources */,
+				7C48F5D57A8B8F7A4BDFF18E355BD38D /* Frameworks */,
+				F25E260407BBFD0E787855EBAEB911CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,25 +373,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 369CEB0EED260738C41D3068275EB9F8 /* Products */;
+			productRefGroup = 9D58C10D2D13321676BF9909DB6D45F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A0398D4C6A2DD31A7729FABC61FD03EB /* Pods-ProximiioProcessor_Tests */,
+				3C00E69971F9D9A57AB7356D9277C0EF /* Proximiio */,
 				283A55E3E64B951174B82F0E091EA285 /* ProximiioProcessor */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07EA7AA272035ABA3FC397EE2E27B73B /* Resources */ = {
+		1EF0DF360B4F91F700EC532967C7C6B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B96BA745400E9983F74541DBB91BF10 /* Resources */ = {
+		F25E260407BBFD0E787855EBAEB911CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,67 +403,73 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DE95FA1BB5B594F5D37DD2DE98AE483 /* Sources */ = {
+		6B933E10267336E74D0E09FE927B7EA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA36486DE58E878074E1A2321CF80E22 /* ProximiioProcessor-dummy.m in Sources */,
-				3AE767339D18CA5F918EF971E0536EDB /* ReplaceMe.swift in Sources */,
+				13D92770FA60F9099F719D858B20B328 /* SwiftyJSON-dummy.m in Sources */,
+				49623B3ADBBD5E328DE5E17E75187513 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91D812960021895CD39A680FAA73B56E /* Sources */ = {
+		A08E0338FC7B54CAE24903908AF5C881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B40C61A565A250C671B149536F89C3A /* Pods-ProximiioProcessor_Tests-dummy.m in Sources */,
+				BE83249CB61D68B417851D35F6818B1E /* Pods-ProximiioProcessor_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6567EAD396B2E660CDCEC98BDC9B0891 /* PBXTargetDependency */ = {
+		085CEDABDC93BE579F47175326713134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 3B0F734565C2CEB7A481112FD72B190A /* PBXContainerItemProxy */;
+		};
+		34F39A47959844E2D776439B8C91FAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = BF4983AFB36023E7073E999288439574 /* PBXContainerItemProxy */;
+		};
+		6C3FBCC206B31C7AF8BE7F3210A5F2B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Proximiio;
+			target = 3C00E69971F9D9A57AB7356D9277C0EF /* Proximiio */;
+			targetProxy = 70934D89CF84AD91F73B19AADB8BE096 /* PBXContainerItemProxy */;
+		};
+		7EFB03319E8AF5FFD5C740E48F5D2BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Proximiio;
+			target = 3C00E69971F9D9A57AB7356D9277C0EF /* Proximiio */;
+			targetProxy = 84E9E65CD055286E5250A49AD2D597F0 /* PBXContainerItemProxy */;
+		};
+		965EDEA949122B4F1A62E62EE030C929 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ProximiioProcessor;
 			target = 283A55E3E64B951174B82F0E091EA285 /* ProximiioProcessor */;
-			targetProxy = CFC0643DBFE1E79D430E20D0532884FD /* PBXContainerItemProxy */;
+			targetProxy = 2331B3D810C21A27CC35333FC59165F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		14CA3DD1C9698BB54C7751D664AFC17D /* Debug */ = {
+		098877C6CA024A32D6DB0C1DC2A3482E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E533890656B4F9A7DD989EFE5AA34894 /* ProximiioProcessor.xcconfig */;
+			baseConfigurationReference = 530AB51B9177C33162105D523E8D36A2 /* Proximiio.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ProximiioProcessor/ProximiioProcessor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ProximiioProcessor/ProximiioProcessor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ProximiioProcessor/ProximiioProcessor.modulemap";
-				PRODUCT_MODULE_NAME = ProximiioProcessor;
-				PRODUCT_NAME = ProximiioProcessor;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2DC05ADAF45958F4D14D1852669A7611 /* Debug */ = {
+		0A96DC605360CFF896CC2438B241D7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEDF5E1C60C59FE168C0C03B44433B5A /* Pods-ProximiioProcessor_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -373,9 +502,43 @@
 			};
 			name = Debug;
 		};
-		4705E2BF68FA6A2FC0E3C89CF93E4766 /* Release */ = {
+		2A642E8D05A9DE4807C9B308AA379E0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E533890656B4F9A7DD989EFE5AA34894 /* ProximiioProcessor.xcconfig */;
+			baseConfigurationReference = 4A5EDF4C143EBAF1708B301BE6DD6AFA /* Pods-ProximiioProcessor_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProximiioProcessor_Tests/Pods-ProximiioProcessor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProximiioProcessor_Tests/Pods-ProximiioProcessor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C862AF56F5E3788D4C7C99DFC62F4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185B75A7C9C38FA9EEAA4C3087C2CF1A /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -386,22 +549,51 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ProximiioProcessor/ProximiioProcessor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ProximiioProcessor/ProximiioProcessor-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ProximiioProcessor/ProximiioProcessor.modulemap";
-				PRODUCT_MODULE_NAME = ProximiioProcessor;
-				PRODUCT_NAME = ProximiioProcessor;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33EAE97B9ADFABAF3F7BB9302669C4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530AB51B9177C33162105D523E8D36A2 /* Proximiio.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46BE0BCB8B377AE04CD5FF504B32373F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A75763885584F03459045EB7DB1CA04 /* ProximiioProcessor.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -529,11 +721,24 @@
 			};
 			name = Debug;
 		};
-		CD5EB57127FBF162C335B247A78E0C55 /* Release */ = {
+		D64870F4E868D9BF002C0C5279583556 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A5EDF4C143EBAF1708B301BE6DD6AFA /* Pods-ProximiioProcessor_Tests.release.xcconfig */;
+			baseConfigurationReference = 0A75763885584F03459045EB7DB1CA04 /* ProximiioProcessor.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0D2B7C115FBB7080006A851ECB52B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185B75A7C9C38FA9EEAA4C3087C2CF1A /* SwiftyJSON.xcconfig */;
+			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -543,34 +748,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ProximiioProcessor_Tests/Pods-ProximiioProcessor_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ProximiioProcessor_Tests/Pods-ProximiioProcessor_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33E2EDE29D74C72A6ABB23FE257FD4EA /* Build configuration list for PBXNativeTarget "ProximiioProcessor" */ = {
+		1DC8483D07A3A7712AA0B8DE213D75E5 /* Build configuration list for PBXNativeTarget "Pods-ProximiioProcessor_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14CA3DD1C9698BB54C7751D664AFC17D /* Debug */,
-				4705E2BF68FA6A2FC0E3C89CF93E4766 /* Release */,
+				0A96DC605360CFF896CC2438B241D7C0 /* Debug */,
+				2A642E8D05A9DE4807C9B308AA379E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -584,11 +787,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C03F70E15B23295C684405E6A266C942 /* Build configuration list for PBXNativeTarget "Pods-ProximiioProcessor_Tests" */ = {
+		6EE7C5C7142A38A1179067EE1761F55D /* Build configuration list for PBXAggregateTarget "ProximiioProcessor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DC05ADAF45958F4D14D1852669A7611 /* Debug */,
-				CD5EB57127FBF162C335B247A78E0C55 /* Release */,
+				D64870F4E868D9BF002C0C5279583556 /* Debug */,
+				46BE0BCB8B377AE04CD5FF504B32373F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B3B2544AB48CAE5A5667D02541CC40 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D2B7C115FBB7080006A851ECB52B52 /* Debug */,
+				2C862AF56F5E3788D4C7C99DFC62F4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F3117BFBA7EA9BABE17D651DC1F0F1 /* Build configuration list for PBXAggregateTarget "Proximiio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098877C6CA024A32D6DB0C1DC2A3482E /* Debug */,
+				33EAE97B9ADFABAF3F7BB9302669C4E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

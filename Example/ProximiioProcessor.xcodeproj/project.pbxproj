@@ -200,11 +200,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ProximiioProcessor_Tests/Pods-ProximiioProcessor_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ProximiioProcessor/ProximiioProcessor.framework",
+				"${PODS_ROOT}/Proximiio/Pod/Proximiio.framework",
+				"${PODS_ROOT}/../../ProximiioProcessor.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proximiio.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProximiioProcessor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
