@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ProximiioProcessor-Swift.h</key>
 		<data>
-		rQirHd4vPBIoXFatyeX40IfGkkQ=
+		nk1Q4lxIKqRHcdCyuAzN0VP87cc=
 		</data>
 		<key>Headers/processor.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zu+NJMMNUQG79caqUKTOdoeogcM=
+		IvN4wzPgX0N7lFLDg0cba/6zgSQ=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		zU/7CF2MSjHMSzfJVX2Lka7e7PU=
+		5xuVFVjfzbwCk3GJ5Jpn46AbRV8=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YGW7RKgVEeXtR4wQofrW27JL5fo=
+		YkhVXtlWV57jf/wqyd+ExqOY2Vo=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		zU/7CF2MSjHMSzfJVX2Lka7e7PU=
+		5xuVFVjfzbwCk3GJ5Jpn46AbRV8=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		YGW7RKgVEeXtR4wQofrW27JL5fo=
+		YkhVXtlWV57jf/wqyd+ExqOY2Vo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			92KinpQTJ89TDddDtuxpJU72gRrndFM8pjPQncHjtFQ=
+			pZYZ4QPXiYsF5O0lbrZ/rmrtUaVUSfTHZzIlds9kJjQ=
 			</data>
 		</dict>
 		<key>Headers/processor.h</key>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			amh35J89G8Wasrytfj53s2B/5m6oMTlAmgZPqdA+7Fo=
+			mIN+Vm4CV3aJTl8kHdyrm9D5jquZS66qpUpY26rfo5E=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lup4bt29kBPXfaxzS2kqXGvp1iBhxm2TLjzgy7flrS0=
+			N+L1igrsMr1iQ2nUTGK3IkIZ0XVEvqvPMSLxd135kRw=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			amh35J89G8Wasrytfj53s2B/5m6oMTlAmgZPqdA+7Fo=
+			mIN+Vm4CV3aJTl8kHdyrm9D5jquZS66qpUpY26rfo5E=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lup4bt29kBPXfaxzS2kqXGvp1iBhxm2TLjzgy7flrS0=
+			N+L1igrsMr1iQ2nUTGK3IkIZ0XVEvqvPMSLxd135kRw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
