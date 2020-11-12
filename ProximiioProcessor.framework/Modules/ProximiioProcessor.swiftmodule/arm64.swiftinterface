@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ProximiioProcessor
+import CoreMotion
+import Foundation
+import MessageUI
+import Proximiio
+import Swift
+import SwiftyJSON
+@objc @_inheritsConvenienceInitializers public class ProximiioLogProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate {
+  public func sendMail()
+  @objc dynamic public func mailComposeController(_ didFinishWithcontroller: MessageUI.MFMailComposeViewController, didFinishWith result: MessageUI.MFMailComposeResult, error: Swift.Error?)
+}
+@objc @_inheritsConvenienceInitializers public class ProximiioSnapProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  public var threshold: Swift.Double
+  public var forceFixThreshold: Swift.Double
+  public var forceFixAfterSeconds: Swift.Double
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension ProximiioSnapProcessor {
+  public func distance(_ from: CoreLocation.CLLocationCoordinate2D?, to: CoreLocation.CLLocationCoordinate2D?) -> Swift.Double
+}
+@objc @_inheritsConvenienceInitializers public class ProximiioClampProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers public class ProximiioPDRProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  public var threshold: Swift.Double
+  public var avgStepLength: Swift.Double
+  public var pdrTimeout: Swift.Double
+  public var useDeviceHeading: Swift.Bool
+  public var customHeading: Swift.Double
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
+  @objc deinit
+  @objc override dynamic public init()
+}
