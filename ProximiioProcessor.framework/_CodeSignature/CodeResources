@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ProximiioProcessor-Swift.h</key>
 		<data>
-		drunwLpKDlt1/WmbCJsczZ+97i4=
+		UjlCu6kM6Unw68v1KRwKMUTDtAY=
 		</data>
 		<key>Headers/processor.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LqefGO3UkKrDmryhYApkfJUZoW0=
+		EFn/MBxcYeVepXGioOTct24Icis=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		0k8KbxeK0L9zm7YXcvLzR67rk4Q=
+		hPi7qoPRqjVIc211e03bcrah9uA=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lnNtixj2LgmBWez8GPletlcHHwY=
+		nruEjB5JUA5EkZlQ/K+qMmEtjMU=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5xrrVMxyVuHfhiIqwTzkYQ9Ttyw=
+		lNLmpDVrSQMviXtBK5OZvOPf5/M=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		0k8KbxeK0L9zm7YXcvLzR67rk4Q=
+		hPi7qoPRqjVIc211e03bcrah9uA=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		lnNtixj2LgmBWez8GPletlcHHwY=
+		nruEjB5JUA5EkZlQ/K+qMmEtjMU=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		5xrrVMxyVuHfhiIqwTzkYQ9Ttyw=
+		lNLmpDVrSQMviXtBK5OZvOPf5/M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fhobNUtxbU4+wIEKVlPRhk0NfSaqOsxH4rHnSx62Vq4=
+			5wX2pyYi2yiwSYCYw71SpvOl2ryNf7eoASjgKBjzIns=
 			</data>
 		</dict>
 		<key>Headers/processor.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			srnsHB+wA5aAVhghpCCppzVjc9HRdRLpJj7qrPbhEvo=
+			7xaWOz1bZTwaswf8jt/01PfaUtuTHUVUkS9Rd5GXxDw=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qn+vJC62djMuXseO05g1+kWI3xknMse4GE2FHoMTg4E=
+			xD74A7Ykw+lraHf7TiMo4E1md5ySdCuRjIXxAJ2jBO0=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VORY674YSfbSd3K2L83uONmNIEcDPxqS9WOp4vToF+Q=
+			NdnYe+IAiY+EgzDe6n/L28XsyRazQZjHC4BS7UHcODc=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			srnsHB+wA5aAVhghpCCppzVjc9HRdRLpJj7qrPbhEvo=
+			7xaWOz1bZTwaswf8jt/01PfaUtuTHUVUkS9Rd5GXxDw=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qn+vJC62djMuXseO05g1+kWI3xknMse4GE2FHoMTg4E=
+			xD74A7Ykw+lraHf7TiMo4E1md5ySdCuRjIXxAJ2jBO0=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VORY674YSfbSd3K2L83uONmNIEcDPxqS9WOp4vToF+Q=
+			NdnYe+IAiY+EgzDe6n/L28XsyRazQZjHC4BS7UHcODc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
