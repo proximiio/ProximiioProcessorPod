@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ProximiioProcessor
 import CoreMotion
 import Foundation
@@ -9,8 +9,8 @@ import Swift
 import SwiftyJSON
 @objc @_inheritsConvenienceInitializers public class ProximiioLogProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 extension ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate {
   public func sendMail()
@@ -21,8 +21,8 @@ extension ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate 
   public var forceFixThreshold: Swift.Double
   public var forceFixAfterSeconds: Swift.Double
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 extension ProximiioSnapProcessor {
   public func navigationRouteSet(_ route: [[CoreLocation.CLLocation]])
@@ -33,8 +33,8 @@ extension ProximiioSnapProcessor {
 }
 @objc @_inheritsConvenienceInitializers public class ProximiioClampProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class ProximiioPDRProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
   public var hiThreshold: Swift.Double
@@ -45,6 +45,6 @@ extension ProximiioSnapProcessor {
   public var useDeviceHeading: Swift.Bool
   public var customHeading: Swift.Double
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
