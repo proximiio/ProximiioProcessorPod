@@ -256,6 +256,17 @@ SWIFT_CLASS("_TtC18ProximiioProcessor21ProximiioLogProcessor")
 /// PDR (Pedestrian dead reckoning)  algoritm
 SWIFT_CLASS("_TtC18ProximiioProcessor21ProximiioPDRProcessor")
 @interface ProximiioPDRProcessor : NSObject <ProximiioLocationProcessor>
+@property (nonatomic) double hiThreshold;
+@property (nonatomic) double lowThreshold;
+/// threshold after a new fix is used
+@property (nonatomic) double threshold;
+/// avg step length
+@property (nonatomic) double avgStepLength;
+/// pdr timeout
+@property (nonatomic) double pdrTimeout;
+/// this flag check if using the device heading or not
+@property (nonatomic) BOOL useDeviceHeading;
+@property (nonatomic) double customHeading;
 /// According to <code>ProximiioLocationProcessor</code> protocol this function allow raw Location, Floor data to be
 /// recalculated.
 /// Algorithm makes use of Accelerator and Compass to estimate user position.
@@ -285,6 +296,10 @@ SWIFT_CLASS("_TtC18ProximiioProcessor21ProximiioPDRProcessor")
 /// Route snapping algoritm
 SWIFT_CLASS("_TtC18ProximiioProcessor22ProximiioSnapProcessor")
 @interface ProximiioSnapProcessor : NSObject <ProximiioLocationProcessor>
+/// threshold after snap is not applied
+@property (nonatomic) double threshold;
+@property (nonatomic) double forceFixThreshold;
+@property (nonatomic) double forceFixAfterSeconds;
 /// According to <code>ProximiioLocationProcessor</code> protocol this function allow raw Location, Floor data to be
 /// recalculated.
 /// Functions uses also a filtered list of segments, calculated on the nearby list of path within 1km from user.
