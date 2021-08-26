@@ -211,12 +211,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class ProximiioLocation;
 @class ProximiioFloor;
 @class NSNumber;
+@class ProximiioInput;
 
 /// Route snapping algoritm
 SWIFT_CLASS("_TtC18ProximiioProcessor23ProximiioClampProcessor")
 @interface ProximiioClampProcessor : NSObject <ProximiioLocationProcessor>
 /// Algorithm avoid shaking and teleporting
-- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger SWIFT_WARN_UNUSED_RESULT;
+- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)transitional SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -241,7 +242,7 @@ SWIFT_CLASS("_TtC18ProximiioProcessor21ProximiioLogProcessor")
 ///
 /// returns:
 /// data as entered, it acts as a transparent proxy
-- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger SWIFT_WARN_UNUSED_RESULT;
+- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)transitional SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -284,7 +285,7 @@ SWIFT_CLASS("_TtC18ProximiioProcessor21ProximiioPDRProcessor")
 ///
 /// returns:
 /// simulated position of user according steps done
-- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger SWIFT_WARN_UNUSED_RESULT;
+- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)transitional SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -319,7 +320,7 @@ SWIFT_CLASS("_TtC18ProximiioProcessor22ProximiioSnapProcessor")
 /// returns:
 /// Snapped user position if close to a path at least 5.0 mt (by default, or custom value if applied).
 /// If user is far than 5.0 mt (or custom value) the value is returned as is.
-- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger SWIFT_WARN_UNUSED_RESULT;
+- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)transitional SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

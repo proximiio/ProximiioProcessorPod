@@ -8,7 +8,7 @@ import Proximiio
 import Swift
 import SwiftyJSON
 @objc @_inheritsConvenienceInitializers public class ProximiioLogProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
-  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   @objc override dynamic public init()
   @objc deinit
 }
@@ -20,7 +20,7 @@ extension ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate 
   @objc public var threshold: Swift.Double
   @objc public var forceFixThreshold: Swift.Double
   @objc public var forceFixAfterSeconds: Swift.Double
-  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   @objc override dynamic public init()
   @objc deinit
 }
@@ -32,7 +32,7 @@ extension ProximiioSnapProcessor {
   public func distance(_ from: CoreLocation.CLLocationCoordinate2D?, to: CoreLocation.CLLocationCoordinate2D?) -> Swift.Double
 }
 @objc @_inheritsConvenienceInitializers public class ProximiioClampProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
-  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   @objc override dynamic public init()
   @objc deinit
 }
@@ -44,7 +44,7 @@ extension ProximiioSnapProcessor {
   @objc public var pdrTimeout: Swift.Double
   @objc public var useDeviceHeading: Swift.Bool
   @objc public var customHeading: Swift.Double
-  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool) -> Proximiio.ProximiioLocation!
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   @objc override dynamic public init()
   @objc deinit
 }
