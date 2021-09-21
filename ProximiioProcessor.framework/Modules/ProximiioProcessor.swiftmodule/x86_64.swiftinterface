@@ -20,7 +20,7 @@ extension ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate 
   @objc public var threshold: Swift.Double
   @objc public var forceFixThreshold: Swift.Double
   @objc public var forceFixAfterSeconds: Swift.Double
-  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional trancsitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   @objc override dynamic public init()
   @objc deinit
 }
@@ -36,7 +36,11 @@ extension ProximiioSnapProcessor {
   @objc override dynamic public init()
   @objc deinit
 }
+public protocol ProximiioPDRProcessorProtocol : AnyObject {
+  func `is`(moving: Swift.Bool)
+}
 @objc @_inheritsConvenienceInitializers public class ProximiioPDRProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  weak public var delegate: ProximiioProcessor.ProximiioPDRProcessorProtocol?
   @objc public var hiThreshold: Swift.Double
   @objc public var lowThreshold: Swift.Double
   @objc public var threshold: Swift.Double

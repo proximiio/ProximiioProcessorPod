@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ProximiioProcessor-Swift.h</key>
 		<data>
-		jzmTAMTwNJ5fbPQF0gyFfgmCy2s=
+		dSeGWNlbCzZrFsFzM22KoZ1vbrI=
 		</data>
 		<key>Headers/processor.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		0DaVb56mVLV75pJDOqjNEyyGZoY=
+		IStGMCiNj+gqw/rCP6MoQbbpUrk=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fczl/lk+d7Kg9ZTOqF6fmEHt0fw=
+		mQkskQeFWSqQq0HHeqH+E8V9oqk=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		0DaVb56mVLV75pJDOqjNEyyGZoY=
+		IStGMCiNj+gqw/rCP6MoQbbpUrk=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		fczl/lk+d7Kg9ZTOqF6fmEHt0fw=
+		mQkskQeFWSqQq0HHeqH+E8V9oqk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXYQEq43Y4M1Q2hQU8Uz3w9o4vSOLCPXdm6tuOcpx9Q=
+			sFSn+NfSQhvUwpfHNotu+Xnc3xA8uDNWrzb614yImU8=
 			</data>
 		</dict>
 		<key>Headers/processor.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eRTlskZHupWtWpGD08GQ+2angg6VbzK+csMIRuZB1g8=
+			7Epxy3+C+d/KLzZPYtcH2GoROj+kF1BJSmHAOC3XKOY=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M360BExM8fgeFvgVDZzOJDes4Jw4TVLvmGbnss7ynIQ=
+			UQ6OXaxQJp5k+gAY9hOk0RAUFixvA5/CSaQRfn4Lmyg=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eRTlskZHupWtWpGD08GQ+2angg6VbzK+csMIRuZB1g8=
+			7Epxy3+C+d/KLzZPYtcH2GoROj+kF1BJSmHAOC3XKOY=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M360BExM8fgeFvgVDZzOJDes4Jw4TVLvmGbnss7ynIQ=
+			UQ6OXaxQJp5k+gAY9hOk0RAUFixvA5/CSaQRfn4Lmyg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

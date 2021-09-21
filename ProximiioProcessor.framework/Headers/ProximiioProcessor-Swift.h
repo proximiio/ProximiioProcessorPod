@@ -320,7 +320,7 @@ SWIFT_CLASS("_TtC18ProximiioProcessor22ProximiioSnapProcessor")
 /// returns:
 /// Snapped user position if close to a path at least 5.0 mt (by default, or custom value if applied).
 /// If user is far than 5.0 mt (or custom value) the value is returned as is.
-- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)transitional SWIFT_WARN_UNUSED_RESULT;
+- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)trancsitional SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
