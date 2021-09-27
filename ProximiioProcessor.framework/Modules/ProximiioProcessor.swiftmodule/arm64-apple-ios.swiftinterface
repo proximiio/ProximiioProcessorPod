@@ -1,18 +1,20 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ProximiioProcessor
+import Combine
 import CoreMotion
 import Foundation
 import MessageUI
 import Proximiio
 import Swift
 import SwiftyJSON
+import _Concurrency
 @objc @_inheritsConvenienceInitializers public class ProximiioLogProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   @objc override dynamic public init()
   @objc deinit
 }
-extension ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate {
+extension ProximiioProcessor.ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate {
   public func sendMail()
   @objc dynamic public func mailComposeController(_ didFinishWithcontroller: MessageUI.MFMailComposeViewController, didFinishWith result: MessageUI.MFMailComposeResult, error: Swift.Error?)
 }
@@ -24,11 +26,11 @@ extension ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate 
   @objc override dynamic public init()
   @objc deinit
 }
-extension ProximiioSnapProcessor {
+extension ProximiioProcessor.ProximiioSnapProcessor {
   public func navigationRouteSet(_ route: [[CoreLocation.CLLocation]])
   public func navigationRouteDrop()
 }
-extension ProximiioSnapProcessor {
+extension ProximiioProcessor.ProximiioSnapProcessor {
   public func distance(_ from: CoreLocation.CLLocationCoordinate2D?, to: CoreLocation.CLLocationCoordinate2D?) -> Swift.Double
 }
 @objc @_inheritsConvenienceInitializers public class ProximiioClampProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
