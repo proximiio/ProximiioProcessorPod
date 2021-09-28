@@ -9,6 +9,18 @@ import Proximiio
 import Swift
 import SwiftyJSON
 import _Concurrency
+@objc @_inheritsConvenienceInitializers public class ProximiioSimulationProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  @objc public var avgStepLength: Swift.Double
+  public var hiThreshold: Swift.Double
+  public var lowThreshold: Swift.Double
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
+  public func set(routes: [[CoreLocation.CLLocation]])
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ProximiioProcessor.ProximiioSimulationProcessor {
+  public func distance(_ from: CoreLocation.CLLocationCoordinate2D?, to: CoreLocation.CLLocationCoordinate2D?) -> Swift.Double
+}
 @objc @_inheritsConvenienceInitializers public class ProximiioLogProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   @objc override dynamic public init()
