@@ -13,6 +13,7 @@ import _Concurrency
   @objc public var avgStepLength: Swift.Double
   public var hiThreshold: Swift.Double
   public var lowThreshold: Swift.Double
+  public var supportOnlyNavigation: Swift.Bool
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   public func set(routes: [[CoreLocation.CLLocation]])
   @objc override dynamic public init()
