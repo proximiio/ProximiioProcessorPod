@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProximiioProcessor'
-  s.version          = '0.1.2111111111111111111111'
+  s.version          = '0.1.21'
   s.summary          = 'Proximi.io position processors.'
 
 # This description is used to generate tags and improve search results.
