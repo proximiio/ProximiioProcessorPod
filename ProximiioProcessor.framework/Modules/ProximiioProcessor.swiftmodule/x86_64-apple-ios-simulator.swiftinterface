@@ -1,0 +1,78 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ProximiioProcessor
+import Combine
+import CoreLocation
+import CoreMotion
+import Foundation
+import MessageUI
+import Proximiio
+import Swift
+import SwiftyJSON
+import UIKit
+import _Concurrency
+@objc @_inheritsConvenienceInitializers public class ProximiioSimulationProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  public var currentWindow: UIKit.UIWindow?
+  @objc public var avgStepLength: Swift.Double
+  public var hiThreshold: Swift.Double
+  public var lowThreshold: Swift.Double
+  public var supportOnlyNavigation: Swift.Bool
+  public var log: ProximiioProcessor.ProximiioLogProcessor?
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
+  public func set(routes: [[CoreLocation.CLLocation]])
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ProximiioProcessor.ProximiioSimulationProcessor {
+  public func distance(_ from: CoreLocation.CLLocationCoordinate2D?, to: CoreLocation.CLLocationCoordinate2D?) -> Swift.Double
+}
+extension CoreLocation.CLLocationCoordinate2D : Swift.Equatable {
+}
+public func == (lhs: CoreLocation.CLLocationCoordinate2D, rhs: CoreLocation.CLLocationCoordinate2D) -> Swift.Bool
+@objc @_inheritsConvenienceInitializers public class ProximiioLogProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  public var currentWindow: UIKit.UIWindow?
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ProximiioProcessor.ProximiioLogProcessor : MessageUI.MFMailComposeViewControllerDelegate {
+  public func write(_ string: Swift.String)
+  public func sendMail()
+  @objc dynamic public func mailComposeController(_ didFinishWithcontroller: MessageUI.MFMailComposeViewController, didFinishWith result: MessageUI.MFMailComposeResult, error: Swift.Error?)
+}
+@objc @_inheritsConvenienceInitializers public class ProximiioSnapProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  @objc public var threshold: Swift.Double
+  @objc public var forceFixThreshold: Swift.Double
+  @objc public var forceFixAfterSeconds: Swift.Double
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional trancsitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ProximiioProcessor.ProximiioSnapProcessor {
+  public func navigationRouteSet(_ route: [[CoreLocation.CLLocation]])
+  public func navigationRouteDrop()
+}
+extension ProximiioProcessor.ProximiioSnapProcessor {
+  public func distance(_ from: CoreLocation.CLLocationCoordinate2D?, to: CoreLocation.CLLocationCoordinate2D?) -> Swift.Double
+}
+@objc @_inheritsConvenienceInitializers public class ProximiioClampProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ProximiioPDRProcessorProtocol : AnyObject {
+  func `is`(moving: Swift.Bool)
+}
+@objc @_inheritsConvenienceInitializers public class ProximiioPDRProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
+  weak public var delegate: ProximiioProcessor.ProximiioPDRProcessorProtocol?
+  @objc public var hiThreshold: Swift.Double
+  @objc public var lowThreshold: Swift.Double
+  @objc public var threshold: Swift.Double
+  @objc public var avgStepLength: Swift.Double
+  @objc public var pdrTimeout: Swift.Double
+  @objc public var useDeviceHeading: Swift.Bool
+  @objc public var customHeading: Swift.Double
+  @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
+  @objc override dynamic public init()
+  @objc deinit
+}
