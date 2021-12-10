@@ -208,19 +208,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
 @class ProximiioLocation;
 @class ProximiioFloor;
 @class NSNumber;
 @class ProximiioInput;
-
-/// Route snapping algoritm
-SWIFT_CLASS("_TtC18ProximiioProcessor23ProximiioClampProcessor")
-@interface ProximiioClampProcessor : NSObject <ProximiioLocationProcessor>
-/// Algorithm avoid shaking and teleporting
-- (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)transitional SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 /// Log processor
 SWIFT_CLASS("_TtC18ProximiioProcessor21ProximiioLogProcessor")
@@ -295,10 +287,10 @@ SWIFT_CLASS("_TtC18ProximiioProcessor21ProximiioPDRProcessor")
 
 SWIFT_CLASS("_TtC18ProximiioProcessor28ProximiioSimulationProcessor")
 @interface ProximiioSimulationProcessor : NSObject <ProximiioLocationProcessor>
-@property (nonatomic) double avgStepLength;
 - (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)transitional SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

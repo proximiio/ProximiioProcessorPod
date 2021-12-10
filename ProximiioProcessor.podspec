@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProximiioProcessor'
-  s.version          = '0.1.23'
+  s.version          = '0.2.0-pre-beta'
   s.summary          = 'Proximi.io position processors.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ DESC
   s.author           = { 'Matteo Crippa' => 'matteocrippa@users.noreply.github.com' }
   s.source           = { :git => 'https://github.com/proximiio/ProximiioProcessorPod.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
 
   s.dependency 'Proximiio'
   s.dependency 'SwiftyJSON'
