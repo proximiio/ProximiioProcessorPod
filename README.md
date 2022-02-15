@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ProximiioProcessorPod.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessorPod)
 [![Platform](https://img.shields.io/cocoapods/p/ProximiioProcessorPod.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessorPod)
 
+Current Version: 0.2.3
+
 ## Example
 
 This framework provide easy position processor for [Proximi.io SDK](https://proximi.io), actually only beta SDK support processors.
