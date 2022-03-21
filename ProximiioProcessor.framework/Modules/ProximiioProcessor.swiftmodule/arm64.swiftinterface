@@ -20,9 +20,7 @@ extension ProximiioProcessor.ProximiioSimulationProcessor {
 @objc @_inheritsConvenienceInitializers public class ProximiioSimulationProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
   public var action: Combine.PassthroughSubject<ProximiioProcessor.ProximiioSimulationProcessor.Action, Swift.Never>
   public var currentWindow: UIKit.UIWindow?
-  public var hiThreshold: Swift.Double
-  public var lowThreshold: Swift.Double
-  public var supportOnlyNavigation: Swift.Bool
+  public var supportFreeride: Swift.Bool
   public var log: ProximiioProcessor.ProximiioLogProcessor?
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   public func set(routes: [[ProximiioProcessor.CLLocationFloor]])
