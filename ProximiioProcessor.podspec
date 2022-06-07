@@ -31,7 +31,7 @@ DESC
   s.dependency 'Proximiio'
   s.dependency 'SwiftyJSON'
 
-  s.swift_version = '5.4'
+  s.swift_version = '5.5'
 
   s.vendored_frameworks = 'ProximiioProcessor.framework'
 end
