@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ProximiioProcessor
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import CoreLocation
 import CoreMotion
@@ -11,6 +12,7 @@ import Swift
 import SwiftyJSON
 import UIKit
 import _Concurrency
+import _StringProcessing
 extension ProximiioProcessor.ProximiioSimulationProcessor {
   public enum Action {
     case poorAccuracy
@@ -20,7 +22,13 @@ extension ProximiioProcessor.ProximiioSimulationProcessor {
 @objc @_inheritsConvenienceInitializers public class ProximiioSimulationProcessor : ObjectiveC.NSObject, Proximiio.ProximiioLocationProcessor {
   public var action: Combine.PassthroughSubject<ProximiioProcessor.ProximiioSimulationProcessor.Action, Swift.Never>
   public var currentWindow: UIKit.UIWindow?
+  public var hiThreshold: Swift.Double
+  public var lowThreshold: Swift.Double
   public var supportFreeride: Swift.Bool
+  public var refreshThreshold: Swift.Double
+  public var closestBeaconThreshold: Swift.Double
+  public var forcePositionToLevelChanger: Swift.Bool
+  public var averageStepLength: Swift.Double
   public var log: ProximiioProcessor.ProximiioLogProcessor?
   @objc public func process(_ currentPosition: Proximiio.ProximiioLocation!, floor currentFloor: Proximiio.ProximiioFloor!, hasLevelChanger levelChanger: Swift.Bool, transitional: Proximiio.ProximiioInput!) -> Proximiio.ProximiioLocation!
   public func set(routes: [[ProximiioProcessor.CLLocationFloor]])
