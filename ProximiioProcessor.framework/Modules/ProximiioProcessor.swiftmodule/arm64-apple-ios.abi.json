@@ -3669,364 +3669,364 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioTurfRing.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioTurfRing.swift",
       "kind": "BooleanLiteral",
       "offset": 899,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 922,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1274,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1282,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1290,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "IntegerLiteral",
       "offset": 1536,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 1758,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 2148,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 2188,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioLogProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioLogProcessor.swift",
       "kind": "StringLiteral",
       "offset": 3079,
       "length": 26,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioLogProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioLogProcessor.swift",
       "kind": "StringLiteral",
       "offset": 3100,
       "length": 1,
       "value": "\".pio\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioSnapProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioSnapProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 461,
       "length": 5,
       "value": "800.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioSnapProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioSnapProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 1271,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioSnapProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioSnapProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1386,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioSnapProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioSnapProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1431,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioSnapProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioSnapProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1490,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 579,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 583,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 1067,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "StringLiteral",
       "offset": 1273,
       "length": 21,
       "value": "\"core-motion-updates\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1391,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1399,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1407,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1426,
       "length": 4,
       "value": "0.85"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1467,
       "length": 4,
       "value": "0.99"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1508,
       "length": 4,
       "value": "0.94"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 1644,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1753,
       "length": 3,
       "value": "7.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1818,
       "length": 4,
       "value": "0.60"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 1887,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 2002,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/ProximiioPDRProcessor.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/ProximiioPDRProcessor.swift",
       "kind": "FloatLiteral",
       "offset": 2044,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 258,
       "length": 5,
       "value": "500.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 303,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 360,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 403,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 443,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 492,
       "length": 3,
       "value": "2.1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 535,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 582,
       "length": 3,
       "value": "1.1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "BooleanLiteral",
       "offset": 636,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 702,
       "length": 49,
       "value": "\"io.proximi.processor.simulation.step.length.key\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 790,
       "length": 48,
       "value": "\"io.proximi.processor.simulation.high.heels.key\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 916,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 922,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 963,
       "length": 33,
       "value": "\"io.proximi.processor.simulation\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 1034,
       "length": 4,
       "value": "0.99"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 1077,
       "length": 4,
       "value": "0.94"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 1120,
       "length": 4,
       "value": "0.85"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 1195,
       "length": 5,
       "value": "0.413"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 1236,
       "length": 5,
       "value": "0.417"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Constants.swift",
+      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/ProximiioProcessor\/processor\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 1281,
       "length": 5,
