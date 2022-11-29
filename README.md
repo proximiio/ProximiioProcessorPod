@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/ProximiioProcessorPod.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessorPod)
 [![Platform](https://img.shields.io/cocoapods/p/ProximiioProcessorPod.svg?style=flat)](https://cocoapods.org/pods/ProximiioProcessorPod)
 
-Current Version: 0.13.0
+Current Version: 0.14.0
 
 ## Example
 
