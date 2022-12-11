@@ -1,4 +1,0 @@
-framework module ProximiioProcessor {
-  header "ProximiioProcessor-Swift.h"
-  requires objc
-}
