@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5JlgiHwb7z6KkyVFhe+Us6WMXZw=
+		/0uf+3UtelvRjc1Ml2yXVhtNmy4=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		tmWx7/7UMLXIceN86JSjIDF0/OE=
+		7MRhT86IIKx9IXwMQ6LXmjau5zo=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		aLUxujx8JWJBFEtUKvStNjSTE2E=
+		Xx2NQfuyr93TG37u86cOROJ3PvU=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		r02UrYKTuMwBh71zh9TO4fnGGWc=
+		aZHcKsbgIS+aF1urcoQkhmwAlqo=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wZzBDpDZkQ2l7PGYc1ZrO/h1tRQ=
+		10h8QdOkfImb1u6AwnerrVxunxM=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		r02UrYKTuMwBh71zh9TO4fnGGWc=
+		aZHcKsbgIS+aF1urcoQkhmwAlqo=
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/ProximiioProcessor.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e1XoqaMJtzBVrOvHBcA+YURrYlg=
+		DROHgNS+SQhfCa1mODZzluJzWAg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,21 +89,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b0VdLHHuxs3JC68ylIeMdg5zqiqoE/RxTPJDfEX7e0U=
+			FRi+xVXB7ksHSQQM5tJ/A203J21vdFifm85PNjkoyHE=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7oGs+PZ4Jj2CqwcAqDkSCs/mn9eSGUYDwEFkPAqTkN4=
+			dJ+eq4vSOVaS/d3iMbUwWCsNJy4F5KuSHpWJBCBA0ng=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wkl8+oeWW94EctrxtL+pD28SY8eZgybg4152EVKfeC4=
+			u67n+JCdcfXl70Tz7Whh5Js19+AwITNXDsPqg9tymNk=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WGdUDSwLas2FHK2iwNylWDVcuI4kKi4/0eqpN4eYTZM=
+			HoAcdBqNeoWy13sNm68RxmPDxUB6iYDywr7CDVTneOY=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wkl8+oeWW94EctrxtL+pD28SY8eZgybg4152EVKfeC4=
+			u67n+JCdcfXl70Tz7Whh5Js19+AwITNXDsPqg9tymNk=
 			</data>
 		</dict>
 		<key>Modules/ProximiioProcessor.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fIQ3f/fcPFi18puEf+0kYVHRGyn/XlDScRY4wfKUP+0=
+			EIWmnpWJMCmdfbuUJ8iIfVJod+xq9q79bZm8ZHtEpmM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
