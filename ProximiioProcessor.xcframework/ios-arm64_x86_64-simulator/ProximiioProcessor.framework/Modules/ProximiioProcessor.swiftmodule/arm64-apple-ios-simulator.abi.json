@@ -197,6 +197,51 @@
           },
           {
             "kind": "Var",
+            "name": "stepsCount",
+            "printedName": "stepsCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ProximiioProcessor0a10SimulationB0C10stepsCountSivp",
+            "mangledName": "$s18ProximiioProcessor0a10SimulationB0C10stepsCountSivp",
+            "moduleName": "ProximiioProcessor",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ProximiioProcessor0a10SimulationB0C10stepsCountSivg",
+                "mangledName": "$s18ProximiioProcessor0a10SimulationB0C10stepsCountSivg",
+                "moduleName": "ProximiioProcessor",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "currentWindow",
             "printedName": "currentWindow",
             "children": [
@@ -3656,57 +3701,92 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 907,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
-      "kind": "FloatLiteral",
-      "offset": 1259,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
-      "kind": "FloatLiteral",
-      "offset": 1267,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
-      "kind": "FloatLiteral",
-      "offset": 1275,
-      "length": 3,
-      "value": "0.0"
+      "kind": "IntegerLiteral",
+      "offset": 458,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1521,
+      "offset": 503,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1743,
+      "offset": 1068,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1150,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "kind": "FloatLiteral",
+      "offset": 1491,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "kind": "FloatLiteral",
+      "offset": 1499,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "kind": "FloatLiteral",
+      "offset": 1507,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1753,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1975,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 2133,
+      "offset": 2346,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 2173,
+      "offset": 2412,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ProximiioProcessor\/ProximiioProcessor\/source\/processor\/Simulation\/ProximiioSimulationProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2453,
       "length": 5,
       "value": "false"
     },

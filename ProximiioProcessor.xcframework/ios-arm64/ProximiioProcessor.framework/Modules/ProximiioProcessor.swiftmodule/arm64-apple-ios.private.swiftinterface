@@ -21,6 +21,9 @@ extension ProximiioSimulationProcessor {
 }
 @objc @_inheritsConvenienceInitializers public class ProximiioSimulationProcessor : NSObject, ProximiioLocationProcessor {
   public var action: Combine.PassthroughSubject<ProximiioProcessor.ProximiioSimulationProcessor.Action, Swift.Never>
+  public var stepsCount: Swift.Int {
+    get
+  }
   public var currentWindow: UIWindow?
   public var hiThreshold: Swift.Double
   public var lowThreshold: Swift.Double

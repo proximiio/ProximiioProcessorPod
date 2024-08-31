@@ -344,6 +344,7 @@ SWIFT_CLASS("_TtC18ProximiioProcessor28ProximiioSimulationProcessor")
 
 
 
+
 /// Route snapping algoritm
 SWIFT_CLASS("_TtC18ProximiioProcessor22ProximiioSnapProcessor")
 @interface ProximiioSnapProcessor : NSObject <ProximiioLocationProcessor>
@@ -722,6 +723,7 @@ SWIFT_CLASS("_TtC18ProximiioProcessor28ProximiioSimulationProcessor")
 - (ProximiioLocation * _Null_unspecified)process:(ProximiioLocation * _Null_unspecified)currentPosition floor:(ProximiioFloor * _Null_unspecified)currentFloor hasLevelChanger:(BOOL)levelChanger transitional:(ProximiioInput * _Null_unspecified)transitional SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
